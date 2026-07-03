@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+:root {
+  --wall-1: #2c001e;
+  --wall-2: #77216f;
+  --wall-3: #150014;
+  --panel: #f2f1f0;
+  --panel-head: #eae8e7;
+  --panel-border: #d7d5d3;
+  --text-dark: #2b2b2b;
+  --muted-dark: #6e6e6e;
+  --orange: #e95420;
+  --orange-dark: #c34113;
+  --purple: #77216f;
+  --term-bg1: #300a24;
+  --term-bg2: #2c001e;
+  --term-green: #8ae234;
+  --term-blue: #729fcf;
+  --term-text: #f2f1f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at 85% 92%, rgba(233, 84, 32, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 12% 100%, rgba(119, 33, 111, 0.35) 0%, transparent 55%),
+    linear-gradient(160deg, var(--wall-2) 0%, var(--wall-1) 55%, var(--wall-3) 100%);
+  color: var(--text-dark);
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (max-width: 900px) {
+  html,
+  body {
+    height: auto;
+    overflow-y: auto;
+  }
+}
