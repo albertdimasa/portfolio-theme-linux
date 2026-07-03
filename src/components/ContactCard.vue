@@ -32,7 +32,7 @@ const { t } = useI18n()
         >
           albertabraham28@gmail.com
         </a>
-        <p class="text-xs" style="color: var(--muted-dark)">+6285745974148</p>
+        <a href="https://wa.me/6285745974148" target="_blank" class="text-xs hover:underline" style="color: var(--muted-dark)">+6285745974148</a>
         <div class="flex gap-3 text-sm" style="color: var(--muted-dark)">
           <a
             href="https://github.com/albertdimasa"
@@ -56,7 +56,7 @@ const { t } = useI18n()
           v-html="t('contact.detail_header')"
         />
         <div class="flex items-center gap-3 py-2">
-          <span style="font-size: 18px">\u{2709}\uFE0F</span>
+          <span style="font-size: 18px">✉️</span>
           <a
             href="mailto:albertabraham28@gmail.com"
             class="text-sm hover:underline"
@@ -69,21 +69,21 @@ const { t } = useI18n()
           class="flex items-center gap-3 py-2 border-t"
           style="border-color: var(--panel-border)"
         >
-          <span style="font-size: 18px">\u{1F4DE}</span>
-          <span class="text-sm" style="color: var(--text-dark)">+6285745974148</span>
+          <span style="font-size: 18px">📞</span>
+          <a href="https://wa.me/6285745974148" target="_blank" class="text-sm hover:underline" style="color: var(--text-dark)">+6285745974148</a>
         </div>
         <div
           class="flex items-center gap-3 py-2 border-t"
           style="border-color: var(--panel-border)"
         >
-          <span style="font-size: 18px">\u{1F4CD}</span>
+          <span style="font-size: 18px">📍</span>
           <span class="text-sm" style="color: var(--text-dark)" v-html="t('contact.location')" />
         </div>
         <div
           class="flex items-center gap-3 py-2 border-t"
           style="border-color: var(--panel-border)"
         >
-          <span style="font-size: 18px">\u{1F517}</span>
+          <span style="font-size: 18px">🔗</span>
           <div class="flex gap-3">
             <a
               href="https://github.com/albertdimasa"

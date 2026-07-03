@@ -1,5 +1,8 @@
 import { ref } from 'vue'
 
+const modalOpen = ref(false)
+const activeProject = ref(null)
+
 const projects = [
   {
     title: 'KERIS — Katalog Elektronik Riset & Inovasi Sumenep',
@@ -49,9 +52,6 @@ const projects = [
 ]
 
 export function useProjectModal() {
-  const modalOpen = ref(false)
-  const activeProject = ref(null)
-
   function openProject(i) {
     activeProject.value = projects[i]
     modalOpen.value = true

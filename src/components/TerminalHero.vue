@@ -37,14 +37,10 @@ const { t } = useI18n()
         <p class="text-sm max-w-md" style="color: #b9acb6" v-html="t('hero.bio')" />
         <div class="flex gap-3 pt-2">
           <a
-            href="#contact-card"
+            href="https://wa.me/6285745974148"
+            target="_blank"
             class="btn-primary text-sm px-4 py-2 rounded-lg"
             v-html="t('hero.btn_contact')"
-          />
-          <a
-            href="#projects-card"
-            class="btn-ghost text-sm px-4 py-2 rounded-lg"
-            v-html="t('hero.btn_work')"
           />
         </div>
       </div>
@@ -72,14 +68,14 @@ const { t } = useI18n()
               class="flex items-center gap-2 px-3 py-1.5 rounded-md"
               style="background: rgba(255, 255, 255, 0.06)"
             >
-              <span>\u{1F4CD}</span>
+              <span>📍</span>
               <span style="color: #d8cbd5" v-html="t('hero.location')" />
             </div>
             <div
               class="flex items-center gap-2 px-3 py-1.5 rounded-md"
               style="background: rgba(255, 255, 255, 0.06)"
             >
-              <span>\u{2709}\uFE0F</span>
+              <span>✉️</span>
               <a
                 href="mailto:albertabraham28@gmail.com"
                 class="text-[var(--orange)] hover:underline"
@@ -91,14 +87,14 @@ const { t } = useI18n()
               class="flex items-center gap-2 px-3 py-1.5 rounded-md"
               style="background: rgba(255, 255, 255, 0.06)"
             >
-              <span>\u{1F4DE}</span>
-              <span style="color: #d8cbd5">+6285745974148</span>
+              <span>📞</span>
+              <a href="https://wa.me/6285745974148" target="_blank" style="color: #d8cbd5" class="hover:underline">+6285745974148</a>
             </div>
             <div
               class="flex items-center gap-2 px-3 py-1.5 rounded-md"
               style="background: rgba(255, 255, 255, 0.06)"
             >
-              <span>\u{1F517}</span>
+              <span>🔗</span>
               <a
                 href="http://linkedin.com/in/dimas-albert-abraham"
                 target="_blank"
