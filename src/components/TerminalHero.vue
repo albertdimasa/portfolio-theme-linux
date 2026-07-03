@@ -88,7 +88,13 @@ const { t } = useI18n()
               style="background: rgba(255, 255, 255, 0.06)"
             >
               <span>📞</span>
-              <a href="https://wa.me/6285745974148" target="_blank" style="color: #d8cbd5" class="hover:underline">+6285745974148</a>
+              <a
+                href="https://wa.me/6285745974148"
+                target="_blank"
+                style="color: #d8cbd5"
+                class="hover:underline"
+                >+6285745974148</a
+              >
             </div>
             <div
               class="flex items-center gap-2 px-3 py-1.5 rounded-md"

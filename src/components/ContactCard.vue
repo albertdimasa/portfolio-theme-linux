@@ -32,7 +32,13 @@ const { t } = useI18n()
         >
           albertabraham28@gmail.com
         </a>
-        <a href="https://wa.me/6285745974148" target="_blank" class="text-xs hover:underline" style="color: var(--muted-dark)">+6285745974148</a>
+        <a
+          href="https://wa.me/6285745974148"
+          target="_blank"
+          class="text-xs hover:underline"
+          style="color: var(--muted-dark)"
+          >+6285745974148</a
+        >
         <div class="flex gap-3 text-sm" style="color: var(--muted-dark)">
           <a
             href="https://github.com/albertdimasa"
@@ -70,7 +76,13 @@ const { t } = useI18n()
           style="border-color: var(--panel-border)"
         >
           <span style="font-size: 18px">📞</span>
-          <a href="https://wa.me/6285745974148" target="_blank" class="text-sm hover:underline" style="color: var(--text-dark)">+6285745974148</a>
+          <a
+            href="https://wa.me/6285745974148"
+            target="_blank"
+            class="text-sm hover:underline"
+            style="color: var(--text-dark)"
+            >+6285745974148</a
+          >
         </div>
         <div
           class="flex items-center gap-3 py-2 border-t"
