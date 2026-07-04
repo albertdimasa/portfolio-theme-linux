@@ -83,10 +83,12 @@ const translations = {
     'work.detail_bullet4_1': 'Membantu masalah jaringan dan hardware hingga 10 masalah per hari.',
     'work.detail_bullet4_2': 'Mendukung Warehouse Management System (WMS) Web App.',
     'work.detail_bullet4_3': 'Membuat modul baru untuk Warehouse Management System (WMS).',
-    'projects.win_title': 'projects/ (klik untuk detail)',
+    'projects.win_title': 'projects',
     'projects.desc1': 'Katalog Elektronik Riset &amp; Inovasi Sumenep',
     'projects.desc2': 'Catat order masuk &amp; retur barang',
     'projects.desc3': 'Catat pemasukan &amp; pengeluaran kas',
+    'projects.desc4': 'Fungsi kasir, admin, dan supplier',
+    'projects.desc5': 'Sistem pendaftaran santri baru',
     'projects.detail_header': '# Semua Proyek',
     'projects.date1': 'Oktober 2025',
     'projects.detail_desc1':
@@ -118,7 +120,8 @@ const translations = {
       'Mempelajari: management creativity &amp; business innovation, English for conversation, ethics in international business, general psychology, international business policy &amp; trade theory, dan Thai culture.',
     'edu.edu3_title': 'Assistant Lecturer',
     'edu.edu3_date': 'Oct 2021 - Jan 2022 · 4 mos',
-    'edu.edu3_desc': 'Membantu koreksi tugas dan konsultasi terkait tugas pemrograman pada mata kuliah kecerdasan buatan.',
+    'edu.edu3_desc':
+      'Membantu koreksi tugas dan konsultasi terkait tugas pemrograman pada mata kuliah kecerdasan buatan.',
     'edu.edu3_skills': 'Skills: Artificial Intelligence (AI)',
     'edu.edu4_title': 'Campus Ambassador',
     'edu.edu4_type': 'Freelance',
@@ -224,6 +227,8 @@ const translations = {
     'projects.desc1': 'Sumenep Research &amp; Innovation E-Catalog',
     'projects.desc2': 'Track incoming orders &amp; returns',
     'projects.desc3': 'Track income &amp; expenses',
+    'projects.desc4': 'Cashier, admin, and supplier functions',
+    'projects.desc5': 'Student registration functions',
     'projects.detail_header': '# All Projects',
     'projects.date1': 'October 2025',
     'projects.detail_desc1':
@@ -254,7 +259,8 @@ const translations = {
       'Studied: management creativity &amp; business innovation, English for conversation, ethics in international business, general psychology, international business policy &amp; trade theory, and Thai culture.',
     'edu.edu3_title': 'Assistant Lecturer',
     'edu.edu3_date': 'Oct 2021 - Jan 2022 · 4 mos',
-    'edu.edu3_desc': 'Help with assignment corrections and consulting related to assignments about programming in artificial intelligence courses.',
+    'edu.edu3_desc':
+      'Help with assignment corrections and consulting related to assignments about programming in artificial intelligence courses.',
     'edu.edu3_skills': 'Skills: Artificial Intelligence (AI)',
     'edu.edu4_title': 'Campus Ambassador',
     'edu.edu4_type': 'Freelance',

@@ -140,7 +140,7 @@ const translations = {
     'work.detail_bullet3_1': 'Mengelola 10 kelas (grup &amp; privat) dengan pendekatan yang disesuaikan untuk setiap siswa.',
     'work.detail_bullet3_2': 'Mengajar lebih dari 100 jam kepada hingga 60 siswa.',
     'work.detail_bullet3_3': 'Berkordinasi aktif dengan orang tua untuk memantau dan melaporkan progres belajar.',
-    'projects.win_title': 'projects/ (klik untuk detail)',
+    'projects.win_title': 'projects',
     'projects.desc1': 'Katalog Elektronik Riset &amp; Inovasi Sumenep',
     'projects.desc2': 'Catat order masuk &amp; retur barang',
     'projects.desc3': 'Catat pemasukan &amp; pengeluaran kas',

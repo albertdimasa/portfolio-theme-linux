@@ -57,17 +57,30 @@ const { projects, openProject } = useProjectModal()
           :class="{ 'border-b': i < projects.length - 1 }"
           style="border-color: var(--panel-border)"
         >
-          <p class="text-sm font-medium">{{ project.title }}</p>
+          <p class="text-sm font-medium mb-1">{{ project.title }}</p>
           <p
             class="font-mono text-[11px] mb-1"
             style="color: var(--muted-dark)"
             v-html="t(`projects.date${i + 1}`)"
           />
           <p
+            class="font-mono text-[11px] mb-1"
+            style="color: var(--orange)"
+            v-html="t('modal.problem_label')"
+          />
+          <p
             class="text-xs leading-relaxed mb-2"
             style="color: var(--text-dark)"
-            v-html="t(`projects.detail_desc${i + 1}`)"
+          >{{ project.problem }}</p>
+          <p
+            class="font-mono text-[11px] mb-1"
+            style="color: #4e9a06"
+            v-html="t('modal.solution_label')"
           />
+          <p
+            class="text-xs leading-relaxed mb-2"
+            style="color: var(--text-dark)"
+          >{{ project.solution }}</p>
           <div class="flex flex-wrap gap-1">
             <span v-for="tag in project.stack" :key="tag" class="tag">{{ tag }}</span>
           </div>

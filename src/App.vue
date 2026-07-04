@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted, onUnmounted } from 'vue'
 import { useDock } from '@/composables/useDock'
 import { useProjectModal } from '@/composables/useProjectModal'
 import TopBar from '@/components/TopBar.vue'
@@ -14,6 +15,19 @@ import ProjectModal from '@/components/ProjectModal.vue'
 
 const { activeCard, maximize, restore } = useDock()
 const { modalOpen, activeProject, closeProject } = useProjectModal()
+
+function onKeyDown(e) {
+  if (e.key === 'Escape') {
+    if (modalOpen.value) {
+      closeProject()
+    } else if (activeCard.value) {
+      restore()
+    }
+  }
+}
+
+onMounted(() => window.addEventListener('keydown', onKeyDown))
+onUnmounted(() => window.removeEventListener('keydown', onKeyDown))
 </script>
 
 <template>
