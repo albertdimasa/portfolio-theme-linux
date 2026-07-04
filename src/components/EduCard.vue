@@ -29,6 +29,7 @@ const { t } = useI18n()
         <p class="font-medium leading-snug" v-html="t('edu.degree')" />
         <p class="text-xs leading-snug" style="color: var(--muted-dark)" v-html="t('edu.school')" />
         <p class="text-xs leading-snug" style="color: var(--muted-dark)">GPA 3.74/4.0</p>
+        <p class="font-mono text-[11px]" style="color: var(--orange)">{{ t('edu.school2_log') }}</p>
       </div>
       <div v-else class="flex flex-col gap-3">
         <p class="font-mono text-xs" style="color: #4e9a06" v-html="t('edu.detail_header')" />
@@ -41,6 +42,28 @@ const { t } = useI18n()
             style="color: var(--muted-dark)"
             v-html="t('edu.school1_scholarship')"
           />
+          <div class="mt-3 pt-3 border-t" style="border-color: var(--panel-border)">
+            <p class="font-medium text-sm" v-html="t('edu.edu3_title')" />
+            <p class="font-mono text-[11px]" style="color: var(--orange)" v-html="t('edu.edu3_date')" />
+            <p class="text-xs leading-snug" v-html="t('edu.edu3_desc')" />
+            <p class="text-xs mt-1" style="color: var(--muted-dark)" v-html="t('edu.edu3_skills')" />
+          </div>
+          <div class="mt-3 pt-3 border-t" style="border-color: var(--panel-border)">
+            <p class="font-medium text-sm" v-html="t('edu.edu4_title')" />
+            <p class="font-mono text-[11px]" style="color: var(--orange)" v-html="t('edu.edu4_date')" />
+            <p class="text-[11px] leading-snug" style="color: #4e9a06" v-html="t('edu.edu4_type')" />
+            <p class="text-xs leading-snug" style="color: var(--muted-dark)" v-html="t('edu.edu4_location')" />
+            <p class="text-xs leading-snug mt-1" v-html="t('edu.edu4_desc')" />
+            <p class="text-xs mt-1" style="color: var(--muted-dark)" v-html="t('edu.edu4_skills')" />
+          </div>
+          <div class="mt-3 pt-3 border-t" style="border-color: var(--panel-border)">
+            <p class="font-medium text-sm" v-html="t('edu.edu5_title')" />
+            <p class="font-mono text-[11px]" style="color: var(--orange)" v-html="t('edu.edu5_date')" />
+            <p class="text-[11px] leading-snug" style="color: #4e9a06" v-html="t('edu.edu5_type')" />
+            <p class="text-xs leading-snug" style="color: var(--muted-dark)" v-html="t('edu.edu5_location')" />
+            <p class="text-xs leading-snug mt-1" v-html="t('edu.edu5_desc')" />
+            <p class="text-xs mt-1" style="color: var(--muted-dark)" v-html="t('edu.edu5_skills')" />
+          </div>
         </div>
         <div>
           <p class="font-medium text-sm" v-html="t('edu.school2_name')" />
