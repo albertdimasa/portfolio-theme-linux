@@ -1,7 +1,7 @@
 <script setup>
 import { useI18n } from '@/composables/useI18n'
 
-const { t, currentLang, setLang } = useI18n()
+const { t, currentLang, toggleLang } = useI18n()
 
 defineProps({
   activeCard: { type: String, default: null },
@@ -59,11 +59,12 @@ const items = [
       </button>
     </template>
     <div class="w-[26px] h-px my-0.5" style="background: rgba(255, 255, 255, 0.14)" />
-    <button :class="['dock-icon', 'lang', { active: currentLang === 'id' }]" @click="setLang('id')">
-      ID
-    </button>
-    <button :class="['dock-icon', 'lang', { active: currentLang === 'en' }]" @click="setLang('en')">
-      EN
+    <button
+      :class="['dock-icon', 'lang', { active: true }]"
+      @click="toggleLang"
+      :title="currentLang === 'id' ? 'Switch to EN' : 'Ganti ke ID'"
+    >
+      {{ currentLang === 'id' ? 'EN' : 'ID' }}
     </button>
   </div>
 </template>
@@ -92,18 +93,6 @@ const items = [
   font-weight: 700;
   color: #fff;
 }
-.dock-icon.lang {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  font-family: 'Ubuntu Mono', monospace;
-  color: #999;
-}
-.dock-icon.lang.active {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.18);
-}
-
 @media (max-width: 900px) {
   #dock {
     left: 0;

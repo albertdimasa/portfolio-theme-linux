@@ -18,7 +18,6 @@ const { clock } = useClock()
     "
   >
     <div class="flex items-center gap-3.5">
-      <span class="font-bold tracking-wide" v-html="t('topbar.title')" />
       <span class="font-mono opacity-60" v-html="t('topbar.prompt')" />
     </div>
     <div class="flex items-center gap-2.5 opacity-90 font-mono">

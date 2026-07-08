@@ -293,5 +293,9 @@ export function useI18n() {
     currentLang.value = lang
   }
 
-  return { currentLang, t, setLang }
+  function toggleLang() {
+    currentLang.value = currentLang.value === 'id' ? 'en' : 'id'
+  }
+
+  return { currentLang, t, setLang, toggleLang }
 }
