@@ -137,6 +137,7 @@ const translations = {
     'edu.edu5_desc':
       'Selama magang, saya mendapatkan banyak pengetahuan di bidang administrasi dan desain. Selanjutnya, tindakan saya adalah sebagai berikut:<ul class="list-disc pl-4 mt-1"><li>Meninjau Terms Of Reference (TOR) dan laporan pertanggungjawaban (PJK) dari organisasi mahasiswa di UISI</li><li>Mendesain feed instagram, sertifikat, dan lain-lain</li><li>Input data di Simkatmawa</li></ul>',
     'edu.edu5_skills': 'Skills: Canva, Office Administration',
+    'edu.activities_label': 'Pengalaman / Kegiatan',
     'modal.problem_label': 'MASALAH',
     'modal.solution_label': 'SOLUSI',
     'modal.stack_label': 'STACK',
@@ -276,6 +277,7 @@ const translations = {
     'edu.edu5_desc':
       'During the internship, I gained a lot of knowledge in the fields of administration and design. Subsequently, my actions were as follows:<ul class="list-disc pl-4 mt-1"><li>Review Terms Of Reference (TOR) and accountability reports (PJK) from student organizations at UISI</li><li>Design instagram feeds, certificates, and etc</li><li>Input data on Simkatmawa</li></ul>',
     'edu.edu5_skills': 'Skills: Canva, Office Administration',
+    'edu.activities_label': 'Activities / Experience',
     'modal.problem_label': 'PROBLEM',
     'modal.solution_label': 'SOLUTION',
     'modal.stack_label': 'STACK',
