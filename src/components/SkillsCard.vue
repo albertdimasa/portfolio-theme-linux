@@ -23,130 +23,70 @@ const { t } = useI18n()
         />
       </div>
     </div>
-    <div class="win-body flex flex-col gap-4 overflow-auto">
-      <div v-if="!maximized" class="flex flex-col gap-4">
+    <div class="win-body flex flex-col gap-3 overflow-auto">
+      <div v-if="!maximized" class="flex flex-col h-full justify-between gap-2">
         <div>
-          <p
-            class="font-mono text-[11px] mb-2"
-            style="color: var(--muted-dark)"
-            v-html="t('skills.lang_label')"
-          />
-          <div class="flex flex-wrap gap-1.5">
-            <span class="tag">PHP</span><span class="tag">JavaScript</span
-            ><span class="tag">HTML</span> <span class="tag">CSS</span><span class="tag">SQL</span
-            ><span class="tag">ABAP</span>
+          <div class="flex items-center gap-2 mb-1.5">
+            <a
+              href="https://larahand.web.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-mono text-xs font-bold hover:underline flex items-center gap-1"
+              style="color: #4e9a06"
+            >
+              <span>⚡ larahand.web.id</span>
+              <span class="text-[10px]">↗</span>
+            </a>
           </div>
+          <p class="text-xs leading-relaxed text-slate-700">
+            Dokumentasi komprehensif arsitektur Laravel: Service Container, Dependency Injection,
+            Repositories Layer, Event Driven, hingga Queue Jobs.
+          </p>
         </div>
-        <div>
-          <p
-            class="font-mono text-[11px] mb-2"
-            style="color: var(--muted-dark)"
-            v-html="t('skills.framework_label')"
-          />
-          <div class="flex flex-wrap gap-1.5">
-            <span class="tag">Laravel</span><span class="tag">Nuxt.js</span
-            ><span class="tag">Vue.js</span> <span class="tag">Express.js</span
-            ><span class="tag">Livewire</span> <span class="tag">Tailwind</span
-            ><span class="tag">Bootstrap</span>
-          </div>
-        </div>
-        <div>
-          <p
-            class="font-mono text-[11px] mb-2"
-            style="color: var(--muted-dark)"
-            v-html="t('skills.tools_label')"
-          />
-          <div class="flex flex-wrap gap-1.5">
-            <span class="tag">Docker</span><span class="tag">Git</span
-            ><span class="tag">Postman</span> <span class="tag">VPS</span
-            ><span class="tag">Supabase</span><span class="tag">SAP</span>
-          </div>
+        <div class="flex flex-wrap gap-1 mt-1">
+          <span class="tag">Laravel Architecture</span>
+          <span class="tag">Services &amp; Repositories</span>
+          <span class="tag">Events &amp; Queues</span>
         </div>
       </div>
       <div v-else class="flex flex-col gap-4">
         <p class="font-mono text-xs" style="color: #4e9a06" v-html="t('skills.verbose_cmd')" />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_lang')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">PHP</span><span class="tag">JavaScript</span
-              ><span class="tag">HTML</span> <span class="tag">CSS</span><span class="tag">SQL</span
-              ><span class="tag">ABAP</span>
-            </div>
-          </div>
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_frontend')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">Vue.js</span><span class="tag">Nuxt.js</span
-              ><span class="tag">jQuery</span> <span class="tag">Livewire</span
-              ><span class="tag">Tailwind CSS</span><span class="tag">Bootstrap</span>
-            </div>
-          </div>
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_backend')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">Laravel</span><span class="tag">Express.js</span>
-            </div>
-          </div>
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_tools')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">Git</span><span class="tag">SQLyog</span
-              ><span class="tag">Supabase</span> <span class="tag">Postman</span
-              ><span class="tag">VS Code</span>
-            </div>
-          </div>
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_devops')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">Docker</span><span class="tag">VPS</span>
-            </div>
-          </div>
-          <div>
-            <p
-              class="font-mono text-[11px] mb-2"
-              style="color: var(--muted-dark)"
-              v-html="t('skills.detail_sap')"
-            />
-            <div class="flex flex-wrap gap-1.5">
-              <span class="tag">Business One</span><span class="tag">ECC</span
-              ><span class="tag">S/4HANA</span>
-            </div>
-          </div>
-        </div>
-        <div class="border-t pt-3" style="border-color: var(--panel-border)">
-          <p
-            class="font-mono text-[11px] mb-2"
-            style="color: var(--muted-dark)"
-            v-html="t('skills.courses_label')"
-          />
-          <div class="flex flex-wrap gap-1.5 text-xs" style="color: var(--muted-dark)">
-            <span>Dicoding — DevOps (2023)</span><span style="opacity: 0.4">·</span>
-            <span>Dicoding — Back-End (2022)</span><span style="opacity: 0.4">·</span>
-            <span>Dicoding — AWS Cloud (2022)</span><span style="opacity: 0.4">·</span>
-            <span>Codepolitan — JavaScript (2023)</span><span style="opacity: 0.4">·</span>
-            <span>HackerRank — SQL Basic (2023)</span><span style="opacity: 0.4">·</span>
-            <span>FreeCodeCamp — Responsive Web Design (2022)</span>
+        <div class="border p-4 rounded-lg bg-white/50" style="border-color: var(--panel-border)">
+          <h3 class="text-base font-bold text-slate-800 mb-2 flex items-center gap-2">
+            <a
+              href="https://larahand.web.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:underline flex items-center gap-1"
+            >
+              <span>🌐 larahand.web.id</span>
+              <span class="text-xs">↗</span>
+            </a>
+            <span
+              class="text-xs font-normal font-mono px-2 py-0.5 rounded bg-emerald-100 text-emerald-800"
+              >Laravel Architecture Guide</span
+            >
+          </h3>
+          <p class="text-xs leading-relaxed text-slate-700 mb-3">
+            Dokumentasi komprehensif ini dirancang khusus untuk membantu memahami pemisahan logika
+            bisnis melalui single-action classes, penggunaan ulang perilaku lewat PHP Traits,
+            manajemen objek via Service Container, penerapan Dependency Injection, pengelolaan
+            logika bisnis kompleks via Services Layer, abstraksi akses database lewat Repositories
+            Layer, auto-wiring via PHP Reflection API, pemecahan N+1 Query Problem, hingga
+            arsitektur terdekopel berbasis Model Observers, Events &amp; Listeners, serta Queue Jobs
+            di Laravel.
+          </p>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tag">Single-Action Classes</span>
+            <span class="tag">PHP Traits</span>
+            <span class="tag">Service Container</span>
+            <span class="tag">Dependency Injection</span>
+            <span class="tag">Services Layer</span>
+            <span class="tag">Repositories Layer</span>
+            <span class="tag">Reflection API</span>
+            <span class="tag">N+1 Fix</span>
+            <span class="tag">Events &amp; Listeners</span>
+            <span class="tag">Queue Jobs</span>
           </div>
         </div>
       </div>

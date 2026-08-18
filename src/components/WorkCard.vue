@@ -26,6 +26,10 @@ const { t } = useI18n()
     <div class="win-body flex flex-col gap-3 overflow-auto text-sm">
       <div v-if="!maximized" class="flex flex-col gap-3">
         <div>
+          <p class="font-medium" v-html="t('work.role0')" />
+          <p class="text-xs" style="color: var(--muted-dark)" v-html="t('work.company0')" />
+        </div>
+        <div class="border-t pt-3" style="border-color: var(--panel-border)">
           <p class="font-medium" v-html="t('work.role1')" />
           <p class="text-xs" style="color: var(--muted-dark)" v-html="t('work.company1')" />
         </div>
@@ -39,6 +43,25 @@ const { t } = useI18n()
         </div>
       </div>
       <div v-else class="flex flex-col gap-4">
+        <div class="pb-3 border-b" style="border-color: var(--panel-border)">
+          <p class="font-medium text-sm">
+            SAP ABAPer
+            <span class="font-mono text-xs font-normal" style="color: var(--muted-dark)"
+              >— Yada Technology</span
+            >
+          </p>
+          <p
+            class="font-mono text-[11px] mb-2"
+            style="color: var(--orange)"
+            v-html="t('work.detail_date0')"
+          />
+          <ul
+            class="text-xs leading-relaxed space-y-1"
+            style="color: var(--text-dark); list-style: disc; padding-left: 16px"
+          >
+            <li v-html="t('work.detail_bullet0_1')" />
+          </ul>
+        </div>
         <div class="pb-3 border-b" style="border-color: var(--panel-border)">
           <p class="font-medium text-sm">
             Back End Developer
