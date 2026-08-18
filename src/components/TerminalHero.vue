@@ -24,10 +24,11 @@ const { t } = useI18n()
     </div>
     <div class="win-body flex flex-col justify-center gap-3">
       <div v-if="!maximized" class="flex flex-col gap-3">
-        <p class="font-mono text-xs">
+        <p class="font-mono text-xs flex items-center">
           <span class="prompt-user">albert@portfolio</span><span class="prompt-sep">:</span
-          ><span class="prompt-path">~</span><span class="prompt-sep">$</span>
+          ><span class="prompt-path">~</span><span class="prompt-sep">$</span>&nbsp;
           <span class="text-[var(--term-green)]" v-html="t('hero.whoami')" />
+          <span class="terminal-cursor ml-1">▋</span>
         </p>
         <h1
           class="text-4xl md:text-5xl font-bold leading-[1.05] text-white"
@@ -45,10 +46,11 @@ const { t } = useI18n()
         </div>
       </div>
       <div v-else class="flex flex-col gap-4">
-        <p class="font-mono text-xs">
+        <p class="font-mono text-xs flex items-center">
           <span class="prompt-user">albert@portfolio</span><span class="prompt-sep">:</span
-          ><span class="prompt-path">~</span><span class="prompt-sep">$</span>
+          ><span class="prompt-path">~</span><span class="prompt-sep">$</span>&nbsp;
           <span class="text-[var(--term-green)]" v-html="t('hero.cat_cmd')" />
+          <span class="terminal-cursor ml-1">▋</span>
         </p>
         <div class="flex flex-wrap gap-4">
           <div class="flex-1 min-w-[200px]">
@@ -206,6 +208,20 @@ const { t } = useI18n()
 .prompt-path {
   color: var(--term-blue);
   font-weight: 700;
+}
+.terminal-cursor {
+  color: var(--term-green);
+  font-size: 11px;
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 .app-close {
   cursor: pointer;

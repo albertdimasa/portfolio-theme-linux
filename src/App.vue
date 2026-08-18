@@ -2,6 +2,7 @@
 import { onMounted, onUnmounted } from 'vue'
 import { useDock } from '@/composables/useDock'
 import { useProjectModal } from '@/composables/useProjectModal'
+import BootSplash from '@/components/BootSplash.vue'
 import TopBar from '@/components/TopBar.vue'
 import Dock from '@/components/Dock.vue'
 import TerminalHero from '@/components/TerminalHero.vue'
@@ -31,6 +32,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKeyDown))
 </script>
 
 <template>
+  <BootSplash />
   <TopBar />
   <Dock :active-card="activeCard" @maximize="maximize" />
 
@@ -110,6 +112,42 @@ onUnmounted(() => window.removeEventListener('keydown', onKeyDown))
 #backdrop.show {
   opacity: 1;
   pointer-events: auto;
+}
+
+.bento > * {
+  animation: cardEntrance 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+}
+.bento > *:nth-child(1) {
+  animation-delay: 1.2s;
+}
+.bento > *:nth-child(2) {
+  animation-delay: 1.28s;
+}
+.bento > *:nth-child(3) {
+  animation-delay: 1.36s;
+}
+.bento > *:nth-child(4) {
+  animation-delay: 1.44s;
+}
+.bento > *:nth-child(5) {
+  animation-delay: 1.52s;
+}
+.bento > *:nth-child(6) {
+  animation-delay: 1.6s;
+}
+.bento > *:nth-child(7) {
+  animation-delay: 1.68s;
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0.88) translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 @media (max-width: 900px) {

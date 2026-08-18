@@ -15,28 +15,28 @@ const translations = {
     'hero.whoami': 'whoami',
     'hero.name': 'Dimas Albert Abraham',
     'hero.title':
-      'Full-Stack Developer, spesialis <span style="color:var(--orange);">Laravel &amp; Nuxt.js</span> untuk aplikasi enterprise.',
+      'Full-Stack Developer &amp; <span style="color:var(--orange);">SAP ABAPer</span> (3+ tahun), spesialis Laravel &amp; Nuxt.js untuk aplikasi enterprise.',
     'hero.bio':
-      '3+ tahun membangun aplikasi web dari ujung ke ujung — dari arsitektur ERP berskala besar hingga situs khusus berperforma tinggi. Berbasis di Gresik, bekerja dengan tim di mana saja.',
+      '3+ tahun mengemban peran SAP ABAPer &amp; Full-Stack Developer — membangun arsitektur ERP berskala besar, integrasi enterprise SAP, hingga aplikasi web kustom berperforma tinggi.',
     'hero.btn_contact': 'Hubungi Saya',
     'hero.btn_work': 'Lihat Karya',
     'hero.cat_cmd': 'cat profesional_summary.md',
     'hero.detail_p1':
-      'Results-oriented Full-Stack Developer dengan lebih dari <strong style="color:#fff;">3 tahun pengalaman</strong> yang berspesialisasi di ekosistem <strong style="color:var(--orange);">Laravel</strong> dan framework <strong style="color:var(--orange);">Nuxt.js</strong>, terbukti mampu merancang dan memelihara aplikasi web yang kokoh — mulai dari sistem <strong style="color:#fff;">ERP kompleks</strong> hingga situs kustom berperforma tinggi.',
+      'Results-oriented Full-Stack Developer dan <strong style="color:var(--orange);">SAP ABAPer dengan 3+ tahun pengalaman</strong>. Berspesialisasi pada ekosistem <strong style="color:var(--orange);">Laravel</strong>, framework <strong style="color:var(--orange);">Nuxt.js</strong>, dan modul <strong style="color:#fff;">SAP ABAP</strong>, terbukti berpengalaman merancang serta memelihara sistem <strong style="color:#fff;">ERP enterprise kompleks</strong> hingga aplikasi web kustom berperforma tinggi.',
     'hero.detail_p2':
-      'Menjembatani logika back-end yang kuat dengan antarmuka front-end yang mulus, menggunakan Nuxt.js untuk menghadirkan pengalaman pengguna yang cepat, reaktif, dan ramah SEO. Bersemangat menulis kode bersih dan memecahkan tantangan teknis untuk solusi skalabel bagi audiens global.',
+      'Menjembatani integrasi back-end enterprise yang solid dengan antarmuka front-end yang mulus, cepat, reaktif, dan ramah SEO. Bersemangat menulis kode bersih dan memecahkan tantangan teknis terdekopel untuk solusi skalabel.',
     'hero.location': 'Gresik, Indonesia',
     'about.win_title': 'about.md — Text Editor',
     'about.header': '# Tentang Saya',
     'about.p1':
-      'Saya seorang Full-Stack Developer dengan lebih dari 3 tahun pengalaman, khusus di ekosistem Laravel dan Nuxt.js. Saya merancang dan memelihara aplikasi web yang kokoh — mulai dari sistem ERP yang kompleks hingga situs kustom berperforma tinggi.',
+      'Saya seorang Full-Stack Developer dan SAP ABAPer dengan 3+ tahun pengalaman, berspesialisasi di ekosistem Laravel, Nuxt.js, dan pengembangan sistem ERP/SAP enterprise.',
     'about.p2':
-      'Saya menghubungkan logika back-end yang kuat dengan antarmuka front-end yang mulus, dan selalu bersemangat menulis kode yang bersih serta mudah dipelihara untuk solusi yang melayani audiens global.',
+      'Saya merancang sistem backend yang kokoh serta antarmuka reaktif modern, memadukan keahlian integrasi enterprise dengan pengembangan web modern.',
     'about.detail_header': '# Tentang Saya — detail',
     'about.detail_p1':
-      'Saya seorang <strong>Full-Stack Developer</strong> dengan lebih dari 3 tahun pengalaman, khusus di ekosistem <strong>Laravel</strong> dan framework <strong>Nuxt.js</strong>. Saya merancang dan memelihara aplikasi web yang kokoh — mulai dari sistem ERP yang kompleks hingga situs kustom berperforma tinggi.',
+      'Saya seorang <strong>Full-Stack Developer</strong> dan <strong>SAP ABAPer</strong> dengan lebih dari 3 tahun pengalaman. Berpengalaman luas dalam pengembangan <strong>Laravel, Nuxt.js</strong>, serta penyesuaian modul dan integrasi sistem <strong>SAP ABAP</strong> enterprise.',
     'about.detail_p2':
-      'Dengan menjembatani logika back-end yang kuat dan antarmuka front-end yang mulus, saya menggunakan Nuxt.js untuk menghadirkan pengalaman yang <strong>ramah SEO, reaktif, dan cepat</strong>. Saya bersemangat menulis kode yang bersih, mudah dipelihara, dan memecahkan tantangan teknis rumit untuk memberikan solusi perangkat lunak yang skalabel bagi audiens global.',
+      'Dengan menghubungkan logika bisnis back-end yang andal dan antarmuka front-end yang reaktif serta ramah SEO, saya berkomitmen menghadirkan solusi perangkat lunak yang bersih, skalabel, dan bernilai tinggi bagi organisasi enterprise.',
     'about.values_label': 'NILAI UTAMA',
     'skills.win_title': 'what-i-learned --list',
     'skills.header': 'Apa Yang Saya Pelajari',
@@ -160,28 +160,28 @@ const translations = {
     'hero.whoami': 'whoami',
     'hero.name': 'Dimas Albert Abraham',
     'hero.title':
-      'Full-Stack Developer, specializing in <span style="color:var(--orange);">Laravel &amp; Nuxt.js</span> for enterprise applications.',
+      'Full-Stack Developer &amp; <span style="color:var(--orange);">SAP ABAPer</span> (3+ years), specializing in Laravel &amp; Nuxt.js for enterprise applications.',
     'hero.bio':
-      '3+ years building web applications end-to-end — from large-scale ERP architectures to high-performance custom sites. Based in Gresik, working with teams anywhere.',
+      '3+ years combining SAP ABAPer &amp; Full-Stack Developer roles — building large-scale ERP architectures, SAP enterprise integrations, and high-performance custom web applications.',
     'hero.btn_contact': 'Contact Me',
     'hero.btn_work': 'View Work',
     'hero.cat_cmd': 'cat professional_summary.md',
     'hero.detail_p1':
-      'Results-oriented Full-Stack Developer with over <strong style="color:#fff;">3 years of experience</strong> specializing in the <strong style="color:var(--orange);">Laravel</strong> ecosystem and <strong style="color:var(--orange);">Nuxt.js</strong> framework, proven in designing and maintaining robust web applications — from <strong style="color:#fff;">complex ERP systems</strong> to high-performance custom sites.',
+      'Results-oriented Full-Stack Developer and <strong style="color:var(--orange);">SAP ABAPer with 3+ years of experience</strong>. Specializing in the <strong style="color:var(--orange);">Laravel</strong> ecosystem, <strong style="color:var(--orange);">Nuxt.js</strong> framework, and <strong style="color:#fff;">SAP ABAP</strong> modules, proven in designing and maintaining <strong style="color:#fff;">complex enterprise ERP systems</strong> to high-performance custom web sites.',
     'hero.detail_p2':
-      'Bridging strong back-end logic with seamless front-end interfaces, using Nuxt.js to deliver fast, reactive, and SEO-friendly user experiences. Passionate about writing clean code and solving technical challenges for scalable solutions serving a global audience.',
+      'Bridging solid enterprise back-end logic with seamless, fast, reactive, and SEO-friendly front-end interfaces. Passionate about writing clean code and solving complex technical challenges for scalable solutions.',
     'hero.location': 'Gresik, Indonesia',
     'about.win_title': 'about.md — Text Editor',
     'about.header': '# About Me',
     'about.p1':
-      'I am a Full-Stack Developer with more than 3 years of experience, specializing in the Laravel and Nuxt.js ecosystems. I design and maintain robust web applications — from complex ERP systems to high-performance custom sites.',
+      'I am a Full-Stack Developer and SAP ABAPer with over 3 years of experience, specializing in Laravel, Nuxt.js, and enterprise ERP/SAP development.',
     'about.p2':
-      'I bridge strong back-end logic with seamless front-end interfaces, always passionate about writing clean, maintainable code for solutions that serve a global audience.',
+      'I bridge robust backend logic with seamless reactive interfaces, combining enterprise integration skills with modern web development.',
     'about.detail_header': '# About Me — details',
     'about.detail_p1':
-      'I am a <strong>Full-Stack Developer</strong> with over 3 years of experience, specializing in the <strong>Laravel</strong> ecosystem and <strong>Nuxt.js</strong> framework. I design and maintain robust web applications — from complex ERP systems to high-performance custom sites.',
+      'I am a <strong>Full-Stack Developer</strong> and <strong>SAP ABAPer</strong> with over 3 years of experience. Specializing in <strong>Laravel, Nuxt.js</strong>, and enterprise <strong>SAP ABAP</strong> module customization and system integrations.',
     'about.detail_p2':
-      'By bridging strong back-end logic and seamless front-end interfaces, I use Nuxt.js to deliver <strong>SEO-friendly, reactive, and fast</strong> experiences. I am passionate about writing clean, maintainable code and solving complex technical challenges to deliver scalable software solutions for a global audience.',
+      'By connecting reliable back-end business logic and reactive, SEO-friendly front-end interfaces, I am committed to delivering clean, maintainable, and high-value software solutions for enterprise organizations.',
     'about.values_label': 'CORE VALUES',
     'skills.win_title': 'what-i-learned --list',
     'skills.header': 'What I Learned',

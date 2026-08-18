@@ -61,9 +61,9 @@ bun install
 │       ├── Dock.vue            # Side navigation + ID/EN language toggle
 │       ├── TerminalHero.vue    # Hero section (terminal-themed, summary/detail)
 │       ├── AboutCard.vue       # About section
-│       ├── SkillsCard.vue      # Skills tags + online courses
+│       ├── SkillsCard.vue      # What I Learned section (larahand.web.id architecture guide)
 │       ├── ContactCard.vue     # Contact info (email, phone, social)
-│       ├── WorkCard.vue        # Work experience (4 roles)
+│       ├── WorkCard.vue        # Work experience (Yada Technology @ PT KAI, OMNI IT, PT SISI, Algorithmics, PT VCI)
 │       ├── ProjectsCard.vue    # Project tiles + detail list (5 projects)
 │       ├── EduCard.vue         # Education history
 │       └── ProjectModal.vue    # Modal overlay for project problem/solution

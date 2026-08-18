@@ -80,18 +80,21 @@ const items = [
   font-size: 17px;
   cursor: pointer;
   transition:
-    transform 0.15s ease,
-    background 0.15s ease;
+    transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+    background 0.2s ease,
+    box-shadow 0.2s ease;
   background: rgba(255, 255, 255, 0.06);
 }
 .dock-icon:hover {
-  transform: scale(1.08);
-  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px) scale(1.15);
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 12px rgba(233, 84, 32, 0.35);
 }
 .dock-icon.active {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.22);
   font-weight: 700;
   color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 @media (max-width: 900px) {
   #dock {

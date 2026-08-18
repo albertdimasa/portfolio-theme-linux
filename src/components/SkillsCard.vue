@@ -31,7 +31,7 @@ const { t } = useI18n()
               href="https://larahand.web.id"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-mono text-xs font-bold hover:underline flex items-center gap-1"
+              class="font-mono text-xs font-bold hover:underline flex items-center gap-1 badge-pulse"
               style="color: #4e9a06"
             >
               <span>⚡ larahand.web.id</span>
@@ -114,7 +114,7 @@ const { t } = useI18n()
   bottom: 12px;
   z-index: 58;
   border-radius: 12px;
-  animation: maximizeIn 0.18s ease;
+  animation: maximizeIn 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .win.maximized .win-body {
   padding: 28px 34px;
@@ -171,6 +171,20 @@ const { t } = useI18n()
   background: #fff;
   color: var(--muted-dark);
   white-space: nowrap;
+}
+.badge-pulse {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
 }
 
 @keyframes maximizeIn {
